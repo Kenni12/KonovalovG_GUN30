@@ -1580,7 +1580,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.78363806, z: 0.64841986}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2195906446626306822}
   m_Father: {fileID: 1756105809691880525}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &919128199877669631
@@ -1764,13 +1765,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4416518707768381638}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000057601163, y: -0.70710677, z: -0.000000057601156, w: 0.7071068}
-  m_LocalPosition: {x: -1.214, y: 1.343, z: -4.868}
+  m_LocalRotation: {x: 0.0090058725, y: 0.028802179, z: 0.18375663, w: 0.9825085}
+  m_LocalPosition: {x: 0, y: 0.012285471, z: 1.1095383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 666339924838109667}
+  m_LocalEulerAnglesHint: {x: 0.407, y: 3.435, z: 21.199}
 --- !u!4 &3256258900802699333
 Transform:
   m_ObjectHideFlags: 0
@@ -1814,7 +1815,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 546738ce5c5f3484bb590ed3d3f696ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1863,7 +1864,7 @@ GameObject:
   - component: {fileID: 4672912535280687565}
   - component: {fileID: 3741504208714341924}
   m_Layer: 0
-  m_Name: "\u0421TF_Missile"
+  m_Name: projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2438,4 +2439,3 @@ SceneRoots:
   - {fileID: 1756105809691880525}
   - {fileID: 963146986}
   - {fileID: 938774332}
-  - {fileID: 2195906446626306822}
