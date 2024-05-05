@@ -1190,13 +1190,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19049311426e26a40bf82f4495216e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gunAxis: {fileID: 0}
+  _gunAxis: {fileID: 2411746311987055371}
   _gunAngleLimit:
-    Min: -90
-    Max: 90
+    Min: -25
+    Max: 25
   _horRotateSpeed: 0.1
   _vertRotateSpeed: 0.1
-  <FirePoint>k__BackingField: {fileID: 0}
+  <FirePoint>k__BackingField: {fileID: 2196046845720278849}
   _controller: {fileID: 0}
   <Velocity>k__BackingField: 100
   _reloadDelay: 1.5
